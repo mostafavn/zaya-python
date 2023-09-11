@@ -1,75 +1,56 @@
 
 
-``zaya`` is a toolbox for the https://zaya.io community.
+``pythonhost`` is a toolbox for the https://pythonhost.ir community.
 
 
 Install
 -------
 
-    pip3 install zaya
+    pip3 install pythonhost
 
 
 Usage
 -------------
 
-    import zaya
+import pythonhost
+
+    import pythonhost as ph
 
 
-Connect
--------------
-
-    zaya.connect('YourToken')
-    # https://zaya.io/developers/api
+connect to ftp server
+    ph.connect(USER='pythonho', PASS='@UNknown13#',PATH='')
 
 
-account details
 
-    zaya.account()
+upload file
 
+    ph.upload('manage.py')
+    # or
+    ph.upload('*')
+    
 
-urls
+download file
 
-    zaya.create_url('url')
-    zaya.all_url()
-    zaya.detail_url(id)
-    zaya.update_url(id, 'url')
-    zaya.delete_url(id)
+    ph.download('manage.py')
+    # or
+    ph.download('*')
+    
 
+View existing files
 
-domains
+    ph.ls()
+    
 
-    zaya.all_domain()
-    zaya.create_domain('domain')
-    zaya.details_domain(id)
-    zaya.update_domain(id, 'domain')
-    zaya.delete_domain(id)
+print working directory
 
-
-subjects
-
-    zaya.subjects()
-    zaya.create_subject('name', 'red')
-    zaya.details_subject(id)
-    zaya.update_subject(id, 'subject')
-    zaya.delete_subject(id)
+    ph.pwd()
 
 
-stats
-
-    zaya.clicks(id)
-    zaya.stats(id)
-    zaya.referrers(id)
-    zaya.countries(id)
-    zaya.languages(id)
-    zaya.browsers(id)
-    zaya.devices(id)
-    zaya.os(id)
-
-
-get Information from zaya
+get Information from pythonhost
 -------
 
-    zaya.__version__
-    zaya.__author__
-    zaya.__website__
-    zaya.__documentation__
+> ph.__author__
+
+> ph.__website__
+
+> ph.__version__

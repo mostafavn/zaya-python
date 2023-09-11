@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+pythonhost/__init__.py
+pythonhost/netservice.py
+pythonhost.egg-info/PKG-INFO
+pythonhost.egg-info/SOURCES.txt
+pythonhost.egg-info/dependency_links.txt
+pythonhost.egg-info/top_level.txt

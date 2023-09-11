@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: pythonhost
+Version: 1.0.5
+Summary: pythonhost Library
+Home-page: https://pythonhost.ir
+Download-URL: https://github.com/pythonhost/pythonhost.git
+Author: pythonhost Co
+Author-email: info@pythonhost.ir
+License: MIT
+Keywords: pythonhost,pythonhost.ir,ftp,python,host
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Environment :: Console
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+
+
+
+``pythonhost`` is a toolbox for the https://pythonhost.ir community.
+
+
+Install
+-------
+
+    pip3 install pythonhost
+
+
+Usage
+-------------
+
+import pythonhost
+
+    import pythonhost as ph
+
+
+connect to ftp server
+    ph.connect(USER='pythonho', PASS='@UNknown13#',PATH='')
+
+
+
+upload file
+
+    ph.upload('manage.py')
+    # or
+    ph.upload('*')
+    
+
+download file
+
+    ph.download('manage.py')
+    # or
+    ph.download('*')
+    
+
+View existing files
+
+    ph.ls()
+    
+
+print working directory
+
+    ph.pwd()
+
+
+get Information from pythonhost
+-------
+
+> ph.__author__
+
+> ph.__website__
+
+> ph.__version__
