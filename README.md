@@ -6,63 +6,63 @@ using this package you can easily implement the [Zaya](https://zaya.io) link sho
 
 ### Installation
 ```py
-    pip3 install zaya
+pip3 install zaya
 ```
 
 ### Initial construction
 ```py
-    import zaya
-    zaya.connect('YourToken')
+import zaya
+zaya.connect('YourToken')
 ```
 
 ### Account details
 ```py
-    zaya.account()
+zaya.account()
 ```
 
 ### Urls
 ```py
-    zaya.create_url('url')
-    zaya.all_url()
-    zaya.detail_url(id)
-    zaya.update_url(id, 'url')
-    zaya.delete_url(id)
+zaya.create_url('url')
+zaya.all_url()
+zaya.detail_url(id)
+zaya.update_url(id, 'url')
+zaya.delete_url(id)
 ```
 
 ### Domains
 ```py
-    zaya.all_domain()
-    zaya.create_domain('domain')
-    zaya.details_domain(id)
-    zaya.update_domain(id, 'domain')
-    zaya.delete_domain(id)
+zaya.all_domain()
+zaya.create_domain('domain')
+zaya.details_domain(id)
+zaya.update_domain(id, 'domain')
+zaya.delete_domain(id)
 ```
 
 ### Subjects
 ```py
-    zaya.subjects()
-    zaya.create_subject('name', 'red')
-    zaya.details_subject(id)
-    zaya.update_subject(id, 'subject')
-    zaya.delete_subject(id)
+zaya.subjects()
+zaya.create_subject('name', 'red')
+zaya.details_subject(id)
+zaya.update_subject(id, 'subject')
+zaya.delete_subject(id)
 ```
 
 ### Stats
 ```py
-    zaya.clicks(id)
-    zaya.stats(id)
-    zaya.referrers(id)
-    zaya.countries(id)
-    zaya.languages(id)
-    zaya.browsers(id)
-    zaya.devices(id)
-    zaya.os(id)
+zaya.clicks(id)
+zaya.stats(id)
+zaya.referrers(id)
+zaya.countries(id)
+zaya.languages(id)
+zaya.browsers(id)
+zaya.devices(id)
+zaya.os(id)
 ```
 
 ### Getting package information
 ```py
-    zaya.__version__
-    zaya.__author__
-    zaya.__website__
-    zaya.__documentation__
+zaya.__version__
+zaya.__author__
+zaya.__website__
+zaya.__documentation__
 ```
